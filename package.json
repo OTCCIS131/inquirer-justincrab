@@ -1,0 +1,27 @@
+{
+  "name": "inquirer-justincrab",
+  "version": "1.0.0",
+  "description": "Order pizza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OTCCIS131/inquirer-justincrab.git"
+  },
+  "keywords": [
+    "pizza",
+    "order"
+  ],
+  "author": "Justin Crabtree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OTCCIS131/inquirer-justincrab/issues"
+  },
+  "homepage": "https://github.com/OTCCIS131/inquirer-justincrab#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "inquirer": "^3.3.0"
+  }
+}
