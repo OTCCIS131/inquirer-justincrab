@@ -27,7 +27,7 @@ let questions = [{
     name: "toppingsAnswer",
     message: "What kinda toppings u dig fam?",
     default: "Cheese",
-    choices: ["Cheese ", "Pepperonni ", "Canadian Bacon ", "Sausage ", "Green Peppers ", "Shrooms", "Olives"]
+    choices: [" Cheese", " Pepperonni", " Canadian Bacon", " Sausage", " Green Peppers", " Shrooms", " Olives"]
 
 }];
 // another question object had to be defined with another inquirer used below
@@ -35,7 +35,6 @@ let question2 = [{
     type: "confirm",
     name: "confirm",
     message: "Is this lookin good my G?",
-    default: "yes",
 }]
 console.log(chalk.red("Welcome to Cosmo Pizza Pizzagate Express\nYou will be asked a series of questions, \nuse your up/down arrows and enter to complete your order!"));
 inquirer.prompt(questions).then(function (answers) {
